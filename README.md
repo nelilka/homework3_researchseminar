@@ -8,4 +8,4 @@ I got some issues with import of custome functions (nor sys, neither pyrhonpath 
 The repository consists of:
 
 Folder "data" with data I use
-Folder "model", which contains: folder "conf" - saved models with best scores and py-file "models_building" where i wrote functions for preprocessing, NB and SVM Also there is svm_nb.py file in folder "model". I expected to write only functions for triggering defs from models_building.py but as it mentioned below I will also rewrite it.
+Folder "model", which contains: folder "conf" - saved models with best scores and py-file "models_building" where i wrote functions for preprocessing, NB and SVM. Also there is svm_nb.py file in folder "model". I expected to write only functions for triggering defs from models_building.py but as it mentioned below I will also rewrite it.
