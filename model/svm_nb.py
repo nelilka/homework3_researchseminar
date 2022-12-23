@@ -160,9 +160,12 @@ def check_gamma_c(model, X_train_scaled, y_train, X_test_scaled, y_test,  array_
 
 check_gamma_c(SVC, X_train_scaled, y_train, X_test_scaled, y_test,  [0.001, 0.01, 0.1, 1, 10, 100], [0.1, 1, 15], 'linear')
 
+'''save the model with best scores'''
+
 SVM = SVC(kernel = 'linear', gamma=1, C = 1)
 pickle.dump(SVM, open('model/conf/SVM_model.pkl', 'wb'))
 
 def predict(values, path_to_model):
+    '''predict values'''
     clf = load_model(path_to_model)
     return clf.predict(values)
