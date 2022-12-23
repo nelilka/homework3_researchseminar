@@ -21,7 +21,8 @@ from sklearn.model_selection import cross_val_score
 from sklearn.metrics import roc_auc_score,roc_curve,classification_report,confusion_matrix,plot_confusion_matrix
 from sklearn.model_selection import RepeatedStratifiedKFold
 from sklearn.preprocessing import PowerTransformer
-from tensorflow.keras.models import load_model
+from tensorflow import keras
+from keras.models import load_model
 '''should be like this'''
 #from data.pg_connector import get_data
 #from model.conf.models_building import data_split, data_scaler, NB_check, best_param_nb, mean_validation_scores, check_kernels, check_gamma_c
