@@ -1,0 +1,6 @@
+[DATA]
+data_set = 'https://github.com/nelilka/Homework3/blob/Part-1/data/heart.csv'
+
+[MODEL]
+naive_bayes_model = 'model/conf/naive_bayes.pkl'
+svm_model = 'model/conf/SVM_model.pkl'
